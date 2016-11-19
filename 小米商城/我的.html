@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+	<meta name='author' content="wangbin">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>我的</title>
+	<style>
+	html{
+		height: 100;
+		margin: 0;
+	}
+	body{
+		
+		height: 100%;
+		background-color: lightgray;
+		margin: 0;
+	}
+	body>section{
+		height: 100%;
+		width: 100%;
+		margin-left: 0;
+
+	}
+	span{
+		color: gray;
+	}
+		nav{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			height: 40%;
+			background-color: white;
+			align-items: center;
+		}
+		nav>span{
+			font-size: 2rem;
+			color: gray;
+			margin-top: 0.2rem;
+		}
+		nav>img{
+			height: 2rem;
+			width: 2rem;
+		}
+		nav a span{
+			height: 2rem;
+			width: 2rem;
+			text-align: center;
+			font-size: 2rem;
+			margin-top: 1rem;
+		}
+        .first{
+        	text-align: center;
+        	width: 100%;
+        	height: 100%;
+        	background-color: white;
+        }
+		.first div:nth-of-type(1){
+			width: 100%;
+			background-color: orange;
+		}
+		.first div:nth-of-type(1) p{
+			font-size: 1.5rem;
+			display: inline-block;
+			margin-top: 8px;
+			height: 4rem;
+			text-align: center;
+			color: gray;
+		}
+		.first div:nth-of-type(2){
+			display: flex;
+			height: 20%;
+			width: 100%;
+			justify-content: space-around;
+			background-color: white;
+			margin-top: 6%;
+		}
+        .first div:nth-of-type(2) div{
+        	width: 20%;
+        	height: 50%;
+        	background-color: white;
+        	display: flex;
+        	flex-direction: column;
+        	align-items: center;
+        	border-right: 1px solid black;
+        }
+        .first div:nth-of-type(2) a div img{
+        	height: 10%;
+        	width: 50%;
+        }
+        #shou{
+        	border: none;
+        }
+        .second{
+        	background-color: white;
+        	height: 3rem;
+        	width: 100%;
+        	margin-top: 1rem;
+        	display: flex;
+        	align-items: center;
+        }
+        .second span{
+        	font-size: 1.5rem;
+        }
+        .one{
+        	margin-top: 3rem;
+        }
+        .dingdan{
+        	margin-bottom: 1rem;
+        	display: flex;
+        	align-items: center;
+        	width: 100%;
+        	height: 10vw;
+        }
+	</style>
+</head>
+<body>
+<section class="col-lg-6" style='padding: 4px;'>
+	<nav>
+		<img src="image/icon-back.png" alt="">
+		<span>个人中心</span>
+		<a href="#" >
+			<span class="glyphicon glyphicon-search"></span>
+		</a>
+	</nav>
+	<section class="first">
+	<div>
+		<a href="#"><p>立即登陆</p></a>
+	</div>
+	<div class="dingdan">
+		<div><img src="image/page-item.png" alt=""><a href="#" style="text-decoration: none">全部订单</a></div>
+		<div><img src="image/page-item.png" alt=""><a href="#" style="text-decoration: none">待付款</a></div>
+		<div id='shou'><img src="image/page-item.png" alt=""><a href="#" style="text-decoration: none">待收货</a></div>
+	</div>
+	</section>
+	<section class="second">
+		<a href="#" style="text-decoration: none;"><span>我的优惠</span></a>
+	</section>
+	<section class="second">
+		<a href="#" style="text-decoration: none;"><span>F码通道</span></a>
+	</section>
+	<section class="second one">
+		<a href="#" style="text-decoration: none;"><span>我的服务</span></a>
+	</section>
+	<section class="second">
+		<a href="#" style="text-decoration: none;"><span>设置</span></a>
+	</section>
+	
+</section>
+	<script src='bootstrap/js/jquery.min.js'></script>
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+</body>
+
+</html>

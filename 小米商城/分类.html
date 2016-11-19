@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+	<meta name='author' content="wangbin">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>分类</title>
+	<style>
+	html{
+		height: 100;
+	}
+	body{
+		margin: 0;
+		height: 100%;
+		background-color: lightgray;
+	}
+	body>section{
+		height: 100%;
+		width: 100%;
+	}
+		nav{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			height: 20%;
+			background-color: white;
+			align-items: center;
+		}
+		nav>span{
+			font-size: 2rem;
+			color: gray;
+		}
+		nav>img{
+			height: 2rem;
+			width: 2rem;
+		}
+		section>section{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			background-color: white;
+			margin-top: 1%;
+		}
+		.shouji{
+			display: flex;
+			width: 100%;
+			height: 100%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.shouji a{
+			height: 10%;
+			width: 22%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin:1rem;
+		}
+		section>section p{
+			font-size: 1.8rem;
+			margin-top: 2%;
+			color: gray;
+		}
+		.shouji a img{
+			width: 100%;
+			height: 20%;
+		}
+		.shouji a span{
+			font-size: 1.2rem;
+			margin:5px;
+			color: gray;
+		}
+		.img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<section class="col-lg-6" style="padding: 4px;">
+	<nav>
+		<img src="image/icon-back.png" alt="">
+		<span>商品分类</span>
+		<a href="#" >
+			<span class="glyphicon glyphicon-search"></span>
+		</a>
+	</nav>
+	<img class="img" src="image/lbt0.jpg" alt="">
+	<section>
+		<p>手机/电话卡</p>
+		<div class="shouji">
+			<a href="#"><img src="image/fl1-1.png" alt=""><span>小米Note2</span></a>
+		    <a href="#"><img src="image/fl1-2.png" alt=""><span>小米Mix</span></a>
+		    <a href="#"><img src="image/fl1-2.png" alt=""><span>小米5s</span></a>
+		    <a href="#"><img src="image/fl1-4.png" alt=""><span>小米5s Plus</span></a>
+		    <a href="#"><img src="image/fl1-5.png" alt=""><span>小米5</span></a>
+		    <a href="#"><img src="image/fl1-6.png" alt=""><span>小米Max</span></a>
+		    <a href="#"><img src="image/fl1-7.png" alt=""><span>红米4</span></a>
+		    <a href="#"><img src="image/fl1-11.png" alt=""><span>红米4A</span></a>
+		    <a href="#"><img src="image/fl1-12.png" alt=""><span>红米4</span></a>
+		    <a href="#"><img src="image/fl1-13.png" alt=""><span>红米Note4</span></a>
+		    <a href="#"><img src="image/fl1-14.png" alt=""><span>红米4Pro</span></a>
+		    <a href="#"><img src="image/fl1-15.png" alt=""><span>小米移动</span></a>
+		</div>
+	</section>
+	<section>
+		<p>笔记本/平板</p>
+		<div class="shouji">
+		    <a href="#"><img src="image/fl2-3.png" alt=""><span>笔记本12.5</span></a>
+		    <a href="#"><img src="image/fl2-4.png" alt=""><span>笔记本13.3</span></a>
+		    <a href="#"><img src="image/fl2-5.png" alt=""><span>平板2</span></a>
+		</div>
+	</section>
+	<section>
+		<p>智能硬件/路由器</p>
+		<div class="shouji">
+		    <a href="#"><img src="image/fl2-7.png" alt=""><span>主机低音炮</span></a>
+		    <a href="#"><img src="image/fl2-8.png" alt=""><span>家庭音响</span></a>
+		    <a href="#"><img src="image/fl2-9.png" alt=""><span>小米路由器</span></a>
+		    <a href="#"><img src="image/fl2-10.png" alt=""><span>盒子mini版</span></a>
+		    <a href="#"><img src="image/fl1-2.png" alt=""><span>小米Note2</span></a>
+		    <a href="#"><img src="image/fl2-11.png" alt=""><span>蓝牙手柄</span></a>
+		    <a href="#"><img src="image/fl2-12.png" alt=""><span>小米眼镜</span></a>
+		    <a href="#"><img src="image/fl1-5.png" alt=""><span>小米Note2</span></a>
+		   
+		</div>
+	</section>
+</section>
+	<script src='bootstrap/js/jquery.min.js'></script>
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+</body>
+
+</html>

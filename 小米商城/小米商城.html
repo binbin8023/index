@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+	<meta name='author' content="wangbin">
+	<title>小米商城</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		html{
+			height: 100%;
+		}
+		body{
+			height: 100%;
+			margin: 0px;
+			background-color: lightgray;
+		}
+		body>section{
+			height: 100%;
+		}
+		a{
+			text-decoration: none;
+		}
+		main{
+			text-align: center;;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 2%;
+		}
+		main a{
+			display: inline-block;
+			height:30%;
+			width: 30%;
+		}
+		main a img{
+			height: 100%;
+			width: 100%;
+		}
+		.first a{
+			color: gray;
+		}
+		.first{
+			background-color: white;
+			height: 20%;
+			width: 100%;
+            margin-top: 2%;
+		}
+		.first img{
+			float: left;
+			height: 80%;
+			width: 30%;
+		}
+		.first h3{
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin-top: 0.5rem;
+
+		}
+		.first a span{
+			color: red;
+			font-size: 1.3rem;
+			margin-bottom: 0.8rem;
+			display: block;
+		}
+		.first a p{
+			font-size:1rem ;
+			letter-spacing: 1px;
+			margin-top: 1rem;
+		}
+		.clear{
+			clear: both;
+		}
+		.first a .xinpin{
+			height: 10%;
+			width: 15%;
+			position: absolute;
+			left: 5%;
+		}
+		#one{
+			width: 100%;
+			height: 100%;
+		}
+	    #last{
+			height: 10%;
+			width: 100%;
+			background-color: white;
+			margin-top: 1%;			
+		}
+       .nav{      	
+       	display: flex;
+       	justify-content: space-between;
+       }
+       .nav li a img{
+       	width: 50%;
+       	height: 50%;
+
+       }
+	</style>
+</head>
+<body>
+<section class="col-lg-6" style='padding: 4px;'>
+<header>
+	<input type="text" placeholder='搜索商品名称' style="width: 100%;height: 5vh;margin: 1vh;border-radius: 1px;" >
+</header>
+<div class="container ">
+	<div>
+		<div id="one" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-slide-to='0' class="active" data-target='#one'></li>
+				<li data-slide-to='1' data-target='#one'></li>
+				<li data-slide-to='2' data-target='#one'></li>
+			</ol>
+			<div class="carousel-inner" >
+				<div class="item active" >
+					<a href="#" alt="one"><img src="image/lbt0.jpg" ></a>				
+				</div>
+				<div class="item">
+					<a href="#" alt="one"><img src="image/lbt1.jpg" ></a>					
+				</div>
+				<div class="item">
+					<a href="#" alt="one"><img src="image/lbt2.jpg"></a>					
+				</div>
+			</div>
+		</div>
+	   
+	</div>
+</div>
+<main>
+	<a href="#"><img src="image/cx0.jpg" alt=""></a>
+	<a href="#"><img src="image/cx1.jpg" alt=""></a>
+	<a href="#"><img src="image/cx2.jpg" alt=""></a>
+</main>
+<div class="first">
+<a href="#" style="text-decoration: none;">
+	<img src="Max.png" alt="">
+	<h3>小米Mix全网通</h3>
+	<p>6.44~大屏黄金尺寸/4850mAh大电量/指纹解锁/超声波距离感应</p>
+	<span>1299元起</span>
+	<div class="clear"></div>
+	</a>
+</div>
+<div class="first" >
+    <a href="#" style="text-decoration: none;">
+    <img class="xinpin" src="xp.png" alt="">
+	<img src="qumian.jpg" alt="">
+	<h3>小米Mix</h3>
+	<p>6.44~大屏黄金尺寸/4850mAh大电量/指纹解锁/超声波距离感应</p>
+	<span>3299元起</span>
+	<div class="clear"></div>
+	</a>
+</div>
+<div class="first">
+<a href="#" style="text-decoration: none;">
+    <img class="xinpin" src="xp.png" alt="">
+	<img src="xiaomiMix.jpg" alt="">
+	<h3>小米Note2</h3>
+	<p>6.44~大屏黄金尺寸/4850mAh大电量/指纹解锁/超声波距离感应</p>
+	<span>2299元起</span>
+	<div class="clear"></div>
+	</a>
+</div>
+<div class="first">
+<a href="#" style="text-decoration: none;">
+	<img src="bianxing.jpg" alt="">
+	<h3>变形金刚特别版声波</h3>
+	<p>6.44~大屏黄金尺寸/4850mAh大电量/指纹解锁/超声波距离感应</p>
+	<span>1299元起</span>
+	<div class="clear"></div>
+	</a>
+</div>
+<div class="first">
+<a href="#" style="text-decoration: none;">
+	<img src="image/xiaomishouji5.jpg" alt="">
+	<h3>红米Note3</h3>
+	<p>6.44~大屏黄金尺寸/4850mAh大电量/指纹解锁/超声波距离感应</p>
+	<span>899元起</span>
+	<div class="clear"></div>
+	</a>
+</div>
+</section>
+
+	<script src='bootstrap/js/jquery.min.js'></script>
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+</body>
+</html>

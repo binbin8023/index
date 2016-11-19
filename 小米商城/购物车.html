@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+	<meta name='author' content="wangbin">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>分类</title>
+	<style>
+	html{
+		height: 100;
+	}
+	body{
+		margin: 0;
+		height: 100%;
+		background-color: white;
+	}
+	body>section{
+		height: 100%;
+		width: 100%;
+	}
+		nav{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			height: 40%;
+			background-color:lightgray;
+			align-items: center;
+		}
+		nav>span{
+			font-size: 2rem;
+			color:black;
+		}
+		nav>img{
+			height: 2rem;
+			width: 2rem;
+		}
+		nav a span{
+			height: 2rem;
+			width: 2rem;
+			text-align: center;
+			font-size: 2rem;
+			margin-top: 1rem;
+		}
+		.shangpin{
+			height: 100%;
+			background-color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.shangpin div{
+			height: 10rem;
+			width: 10rem;
+			border: 1px solid gray;
+			border-radius: 50%;
+			margin-top: 5rem;
+			text-align: center;
+
+		}
+         .quanbu{
+         	display: block;
+         	height: 5rem;
+         	width: 10rem;
+         	background-color: gray;
+         	display: flex;
+         	justify-content: center;
+         	align-items: center;
+         	margin-top: 5rem;
+         	color: black;
+         	border-radius: 10px;
+         }
+         .jingxuan{
+         	display: block;
+         	height: 5rem;
+         	width: 10rem;
+         	background-color: red;
+         	display: flex;
+         	justify-content: center;
+         	align-items: center;
+         	margin-top: 2rem;
+         	color: black;
+         	border-radius: 10px;
+         }
+         a{
+         	text-decoration: none;
+         }
+         .shangpin div{
+         	display: flex;
+         	justify-content: center;
+         	align-items: center;
+         	opacity: 0.5;
+         }
+	</style>
+</head>
+<body>
+<section class="col-lg-6" style="padding: 2px;">
+	<nav>
+		<img src="image/icon-back.png" alt="">
+		<span>购物车</span>
+		<a href="#" >
+			<span class="glyphicon glyphicon-search"></span>
+		</a>
+	</nav>
+	<section class="shangpin">
+		<div><img src="没有订单.png" alt="" style="width: 50%;height: 50%;">
+		</div>
+		<span style="font-size: 1.2rem;color: gray;margin-top: 0.5rem;">购物车是空的！</span>
+		<a href="小米商城.html" class="quanbu" style="text-decoration: none;">全部商品</a>
+		<a href="分类.html" class="jingxuan" style="text-decoration: none;">精选商品</a>
+	</section>
+	
+</section>
+	<script src='bootstrap/js/jquery.min.js'></script>
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+</body>
+
+</html>
